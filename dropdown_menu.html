@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>下拉菜单</title>
+	<style type="text/css">
+		body{
+			background:#fff;
+			font-size:12px;
+		}
+		ul{
+			margin:0;
+			padding:0;
+			list-style-type: none;
+		}
+		#nav>ul>li{
+			width:120px;
+			border:1px solid #eee;
+			background:#fafafa;
+			padding:4px 0;
+			margin:10px;
+			text-align:center;
+			color:#999;
+			cursor:pointer;
+			position:relative;
+			float:left;
+		}
+		#nav>ul>li:hover{
+			background:#f1fbec;
+			border:1px solid #9cdd75;
+			border-bottom:none;
+			color:#666;
+		}
+		#nav >ul>li>ul{
+			border:1px solid #9cdd75;
+			border-top:none;
+			background:#f1fbec;
+			position:absolute;
+			top:21px;
+			left:-1px;
+			display:none; 
+		}
+		#nav >ul>li>ul>li{
+			width:120px;
+			padding:4px 0;
+		}
+		#nav >ul>li>ul>li a{
+			color:#666;
+			text-decoration:none;
+			display:inline-block;
+			width:100px;
+			padding:4px 0;
+		}
+		#nav >ul>li>ul>li a:hover{
+			color:#333;
+			font-weight:bold;
+			background:lightgreen;
+		}
+		#nav>ul>li:hover ul{
+			display:block;
+		}
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<ul>
+			<li>我的首页
+				<ul>
+					<li><a href="#">我的Png</a></li>
+					<li><a href="#">我的Gif</a></li>
+					<li><a href="#">我的酷站</a></li>
+					<li><a href="#">我的日志</a></li>
+					<li><a href="#">我的相册</a></li>
+					<li><a href="#">我的收藏</a></li>
+				</ul>
+			</li>
+			<li>
+				我的首页
+				<ul>
+					<li><a href="#">我的Png</a></li>
+					<li><a href="#">我的Gif</a></li>
+					<li><a href="#">我的酷站</a></li>
+					<li><a href="#">我的日志</a></li>
+					<li><a href="#">我的相册</a></li>
+					<li><a href="#">我的收藏</a></li>
+				</ul>
+			</li>
+			<li>
+				我的首页
+				<ul>
+					<li><a href="#">我的Png</a></li>
+					<li><a href="#">我的Gif</a></li>
+					<li><a href="#">我的酷站</a></li>
+					<li><a href="#">我的日志</a></li>
+					<li><a href="#">我的相册</a></li>
+					<li><a href="#">我的收藏</a></li>
+				</ul>
+			</li>
+			<li>
+				我的首页
+				<ul>
+					<li><a href="#">我的Png</a></li>
+					<li><a href="#">我的Gif</a></li>
+					<li><a href="#">我的酷站</a></li>
+					<li><a href="#">我的日志</a></li>
+					<li><a href="#">我的相册</a></li>
+					<li><a href="#">我的收藏</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
